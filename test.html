@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Sections</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Parallax Section 1 -->
+    <div class="parallax h-screen bg-cover bg-center" style="background-image: url('/images/banner_img1.jpg');">
+        <div class="h-full flex items-center justify-center">
+            <div class="bg-white bg-opacity-75 p-8 rounded">
+                <h1 class="text-gray-900 text-5xl">Section 1</h1>
+                <p class="text-gray-700 mt-4">Some content for section 1.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Section 1 -->
+    <div class="p-10 bg-white min-h-screen">
+        <p class="text-gray-700">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+        </p>
+    </div>
+
+    <!-- Parallax Section 2 -->
+    <div class="parallax h-screen bg-cover bg-center" style="background-image: url('/images/news-inner-image.jpg');">
+        <div class="h-full flex items-center justify-center">
+            <div class="bg-white bg-opacity-75 p-8 rounded">
+                <h1 class="text-gray-900 text-5xl">Section 2</h1>
+                <p class="text-gray-700 mt-4">Some content for section 2.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Section 2 -->
+    <div class="p-10 bg-white">
+        <p class="text-gray-700">
+            Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
+        </p>
+    </div>
+
+    <!-- Parallax Section 3 -->
+    <div class="parallax h-screen bg-cover bg-center" style="background-image: url('/images/news-single.jpg');">
+        <div class="h-full flex items-center justify-center">
+            <div class="bg-white bg-opacity-75 p-8 rounded">
+                <h1 class="text-gray-900 text-5xl">Section 3</h1>
+                <p class="text-gray-700 mt-4">Some content for section 3.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Section 3 -->
+    <div class="p-10 bg-white">
+        <p class="text-gray-700">
+            Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+        </p>
+    </div>
+
+</body>
+</html>

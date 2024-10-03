@@ -1,0 +1,319 @@
+body {
+      margin: 0;
+      font-size: 1.125rem!important;
+      /* line-height: 1.75rem; */
+      line-height:1.85rem!important;
+
+      background: #050520!important;
+}
+p{
+      font-size: 1.125rem!important;
+      /* line-height: 1.75rem; */
+      line-height:1.85rem!important;
+}
+article ul li{
+      margin-bottom:5px;
+}
+
+
+
+
+/* bar  */
+/* width */
+
+a {
+      color: #e35252;
+      text-decoration: inherit;
+    }
+    
+a.aclr{color: #e35252;}    
+
+::-webkit-scrollbar {
+      width:6px;
+      height: 6px;
+  }  
+  /* Track */
+  ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 5px;
+  }  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #7c7c7c;
+  }
+
+  /* bar  */
+ 
+.mainmenu ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      position: relative;
+}
+ 
+.mainmenu ul li {
+      display: inline-block;
+}
+.mainmenu a.contabt {
+    background: #3cbde0;
+    padding: 10px 20px; 
+    color: #fff;
+    border-radius:0.125rem;
+}
+
+
+
+ 
+.mainmenu ul li a {
+    color: #d9e3ea;
+    text-decoration: none;
+    padding:10px 12px;
+    display: block;
+    font-size: 16px;
+    
+    transition: ease-in-out 0.25s;
+}
+
+
+ 
+ .mainmenu ul li a:hover {
+      color: #e35252;
+    }
+
+
+
+.mainmenu .active{
+       /* border-bottom: 3px #4d4a4a solid;  */
+      border-radius:0 !important; color: #e35252;}    
+
+
+
+ 
+ .mainmenu a.contabt:hover {
+    background: #314f9b;
+    color: #fff;
+ 
+}
+
+
+
+.mainmenu ul ul {
+      position: absolute;
+      min-width: 200px;
+      background: lightgrey;
+      display: none;
+}
+ 
+.mainmenu ul ul li {
+      display: block;
+      background: #25282c;
+}
+
+/* .mainmenu ul ul li a{color: #9ba9b0;} */
+ 
+.mainmenu ul li:hover ul {
+      display: block;
+}
+ 
+.mainmenu ul li i {
+      color: #9ba9b0;
+      float: right;
+      padding-left: 20px;
+}
+ 
+.mainmenu nav div {
+      background: #9ba9b0;
+      color: #000;
+      font-size: 16px;
+      padding: 5px 10px;
+      cursor: pointer;
+      display: none;
+      border-radius: 3px;
+}
+ 
+ 
+
+ .bar-mobile{display: none;}
+
+@media(max-width: 768px) {
+
+      .bar-mobile {
+            display: block;
+            background: #fdbd37;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 3px;
+        }
+
+
+     .mainmenu nav div {
+            display: block;
+      }
+ 
+      .mainmenu ul {
+       display: none;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    top: 56px;
+      }
+ 
+     .mainmenu ul li {
+            display: block; border-bottom: 1px #f7f7f7 solid;
+
+      }
+.mainmenu ul li a { padding: 13px; font-size: 14px; color: #000; }
+.mainmenu ul li a:hover {color: #e35252; }
+     .mainmenu ul ul {
+    position: static;
+    background: #ffffff;
+    
+}
+.mainmenu .btcoor{ background: none; color: #000;}
+.mainmenu .btcoor:hover{ background: none;}
+ .mainmenu ul ul li a{ padding-left: 25px !important; }
+.mainmenu ul ul li a{ padding:13px; }      
+.mainmenu .active{color:#e35252; }    
+.mainmenu a.contabt { background: #fff !important;color: #918f8f !important; padding:13px; }
+.mainmenu a.contabt:hover{ color: #000 !important; }
+
+.mainmenu ul ul li {
+      display: block;
+      background: #fdfdfd;
+}
+
+}
+
+/* Marquees styles start */
+
+.Marquees{
+	overflow-x: hidden;
+}
+.Marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200vw;
+  /* height: 13vh; */
+}
+.marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #050520;
+  border: 1px solid #595970;
+  /* height:8vh;
+  width:10.5vw; */
+  height:80px;
+  width:100%;
+  min-width: 190px;
+  padding: 0px 5px;
+	/*line 43 is very important. since we have 16 items, width of the Marquee which is 200vw must be devided between them. which turns out to be 12.5vw*/
+  margin: 5px;
+  border-radius: 15px;
+}
+.marquee:hover{background: #050520;}
+.marquee img{
+    margin: 0px auto;
+    width: auto;
+    height:77px;     
+}
+.icon {
+	color: #cccccc;
+    transform: scale( 1.5 );
+}
+.FirstRow{
+    animation: Scroll 25s linear infinite;
+    animation-direction: reverse;
+}
+.SecondRow{
+  animation: Scroll 25s linear infinite;
+}
+@keyframes Scroll {
+    0% {transform: translateX(-50vw);
+        -webkit-transform: translateX(-50vw);
+    }
+    100% {transform: translateX(50vw);
+        -webkit-transform: translateX(50vw);
+    }
+}
+
+
+/* Marquees styles end */
+
+
+.marquee-container { 
+      display: block;
+      clear: both;
+      width: 100%;
+      min-height: 360px;
+      overflow: hidden; 
+    
+      .marquee_testimonial {
+        top: 0;
+        left: 100%;
+        width: 100%;
+        /* overflow: hidden; */
+        position: absolute;
+        white-space: nowrap;
+        animation: marquee 30s linear infinite;
+      }
+    
+      .marquee_testimonial2 {
+        animation-delay: 15s;
+      }
+      b {
+        padding-left: 10px;
+      }
+}
+
+.marquee_testimonial .marque_rep{
+      min-width: 400px;
+      min-height: 310px;
+      margin-right: 10px;
+}
+.marquee_testimonial .marque_rep blockquote{      
+      min-height: 120px;
+}
+    
+    @keyframes marquee {
+      0% {
+        left: 100%;
+      }
+      100% {
+        left: -100%
+      }
+    }
+      
+
+
+.parallax {
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+}
+
+
+
+.btcoor{background: #e35252; border-radius: 3px; color: #fff !important;}
+.btcoor:hover{background: #bb284b;}
+a {color: #e35252;}
+.myimg{position: absolute; top: 0; width: 60px;}
+.callbg{ background: #1fbdb3;}
+.article_bg{ background: #25282c;  padding: 20px; border-radius: 6px;}
+.article_bg svg{color: #fff;}
+.learnmore { background-color: #e35252; padding: 4px; color: #fff; font-size: 13px;  margin-top: 15px; width: 80px; text-align: center; border-radius: 3px;}
+footer ul li a:hover{color: #e35252;}
+
+@media(max-width: 768px) {
+      .myimg {  position: absolute;    top: -70px;    width: 60px;  }
+}
+
+@media only screen and (max-width:1460px){
+
+}
