@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} /comprehensive_solutions\.html
+RewriteRule ^comprehensive_solutions\.html$ https://www.audiologyplus.com/comprehensive-solutions.html [R=301,L]

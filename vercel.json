@@ -1,0 +1,185 @@
+{
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "https://www.audiologyplus.com/",
+      "permanent": true
+    },
+    {
+      "source": "/comprehensive_solutions.html",
+      "destination": "https://www.audiologyplus.com/comprehensive-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/organic_marketing.html",
+      "destination": "https://www.audiologyplus.com/organic-marketing.html",
+      "permanent": true
+    },
+    {
+      "source": "/paid_marketing.html",
+      "destination": "https://www.audiologyplus.com/paid-marketing.html",
+      "permanent": true
+    },
+    {
+      "source": "/business_intelligence.html",
+      "destination": "https://www.audiologyplus.com/business-intelligence.html",
+      "permanent": true
+    },
+    {
+      "source": "/online_reputation_management.html",
+      "destination": "https://www.audiologyplus.com/online-reputation-management.html",
+      "permanent": true
+    },
+    {
+      "source": "/lead_conversion_services.html",
+      "destination": "https://www.audiologyplus.com/lead-conversion-services.html",
+      "permanent": true
+    },
+    
+
+    {
+      "source": "/index.php/oms-emr-integrations/",
+      "destination": "https://www.audiologyplus.com/business-intelligence.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/plugins/masterslider/public/assets/css/common/grab.cur",
+      "destination": "https://www.audiologyplus.com/",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/2020/08/20/how-ecommerce-is-revolutionizing-business-in-the-age-of-covid-19/",
+      "destination": "https://www.audiologyplus.com/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/online-reviews/",
+      "destination": "https://www.audiologyplus.com/online-reputation-management.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/enhance-automate/",
+      "destination": "https://www.audiologyplus.com/no-inventory-ecommerce.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/virtual-growth-platform/",
+      "destination": "https://www.audiologyplus.com/organic-marketing.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/virtual-audiology/",
+      "destination": "https://www.audiologyplus.com/organic-marketing.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/company/",
+      "destination": "https://www.audiologyplus.com/about-us.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/social-media-marketing-blogs/",
+      "destination": "https://www.audiologyplus.com/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/how-it-works/",
+      "destination": "https://www.audiologyplus.com/about-us.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/2020/09/17/5-key-tips-for-how-to-recognize-online-marketing-scams/",
+      "destination": "https://www.audiologyplus.com/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/social-media-marketing-blogs/",
+      "destination": "https://www.audiologyplus.com/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/automated-e-commerce/",
+      "destination": "https://www.audiologyplus.com/no-inventory-ecommerce.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/comments/feed/",
+      "destination": "https://www.audiologyplus.com/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/it-security-management/",
+      "destination": "https://www.audiologyplus.com/business-intelligence.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/feed/",
+      "destination": "https://www.audiologyplus.com/",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/resources/",
+      "destination": "https://www.audiologyplus.com/comprehensive-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/websites-seo/",
+      "destination": "https://www.audiologyplus.com/organic-marketing.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/sell-products-online/",
+      "destination": "https://www.audiologyplus.com/no-inventory-ecommerce.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/protect-collaborate/",
+      "destination": "https://www.audiologyplus.com/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/virtualize-your-business/",
+      "destination": "https://www.audiologyplus.com/organic-marketing.html",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-center/%20",
+      "destination": "https://www.audiologyplus.com/privacypolicy.html",
+      "permanent": true
+    },
+    {
+      "source": "/best-practices/",
+      "destination": "https://www.audiologyplus.com/why-us.html",
+      "permanent": true
+    },
+    {
+      "source": "/pay-per-click/",
+      "destination": "https://www.audiologyplus.com/paid-marketing.html",
+      "permanent": true
+    },
+    {
+      "source": "/the-importance-of-person-centered-hearing-care/",
+      "destination": "https://www.audiologyplus.com/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/get-online-reviews/",
+      "destination": "https://www.audiologyplus.com/online-reputation-management.html",
+      "permanent": true
+    },
+    {
+      "source": "/get-a-modern-website/",
+      "destination": "https://www.audiologyplus.com/comprehensive-solutions.html",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-growth-platform/",
+      "destination": "https://www.audiologyplus.com/organic-marketing.html",
+      "permanent": true
+    }
+
+  ]
+}
+
+
+

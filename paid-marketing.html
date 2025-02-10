@@ -61,10 +61,10 @@
 
                      
                       <li><a href="./why-us.html">Why us </a></li>
-                      <!--<li><a href="./faqs.html">FAQs</a></li>
-                      <li><a href="./testimonials.html">Testimonials</a></li>-->
+                      <li><a href="./faqs.html">FAQs</a></li>
+                      <li><a href="./testimonials.html">Testimonials</a></li>
                       <li><a href="./blog.html">Blog</a></li>
-                      <li><a href="https://booking.audiologyplus.com/" target="_blank" class="btcoor bg-gradient-to-r from-amber-500 to-pink-500 hover:bg-gradient-to-l border-0 rounded-[8px] text-white">Contact us</a></li>
+                      <li><a href="/contact-us.html" class="btcoor bg-gradient-to-r from-amber-500 to-pink-500 hover:bg-gradient-to-l border-0 rounded-[8px] text-white">Contact us</a></li>
                     </ul>
         </nav>
 
@@ -154,7 +154,7 @@
         </div>
 
         <!-- Bullets -->
-        <div class="flex justify-center mt-0 lg:mt-6">
+        <div class="flex1 justify-center mt-0 lg:mt-6 hidden">
 
             <!-- Alpine.js template for bullets: https://github.com/alpinejs/alpine#x-for -->
             <template x-for="(item, index) in items" :key="index">
@@ -271,25 +271,30 @@
 </section>
 
 
-      <!-- Call to action stat -->
-      <section>
-        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+     <!-- Call to action stat -->
+     <section class="">
+      <div class="max-w-6xl mx-auto px-4 sm:px-0">
           <!-- CTA box -->
-          <div class="callbg py-10 px-8 md:py-16 md:px-12">
-            <div class="flex flex-col lg:flex-row justify-between items-center">
-              <!-- CTA content -->
-              <div class="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-3/4">
-                <h3 class="h3 text-white mb-4">Contact us today to schedule a free consultation</h3>
+          <div class="callbg1 bg-gradient-to-r from-slate-900 to-slate-700 rounded-[40px] lg:rounded-[100px] p-6 md:py-8 md:px-12">
+              <div class="flex flex-col lg:flex-row justify-between items-center">
+                  <!-- CTA content -->
+                  <div class="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-3/4">
+                      <h3 class="h3 text-white mb-2">
+                          Get Started with a 
+                          <span class="bg-gradient-to-r from-amber-500 to-pink-500 inline-block text-transparent bg-clip-text">Free Consultation</span>
+                      </h3>
+                      <p class="text-white text-lg">Unlock the full potential of your marketing efforts.</p>
+                  </div>
+                  <!-- CTA button -->
+                  <div class="w-full lg:w-1/4 flex justify-center lg:justify-end">
+                      <a class="btn bg-gradient-to-r from-amber-500 to-pink-500 hover:bg-gradient-to-l py-3.5 border-0 rounded-[8px] text-white" href="/contact-us.html">Schedule Today</a>
+                  </div>
               </div>
-              <!-- CTA button -->
-              <div class="w-full lg:w-1/4 flex justify-center lg:justify-end">
-                <a class="btn text-white btcoor" href="./contact-us.html">Contact us</a>
-              </div>
-            </div>
           </div>
-        </div>
-      </section>
-      <!-- Call to action end -->
+
+      </div>
+  </section>
+  <!-- Call to action end -->
 
 
     </main>
@@ -354,15 +359,18 @@
                                     <li class="mb-1">
                                         <a class="text-[#e2e8ff]/75 hover:text-gray-100 transition duration-150 ease-in-out" href="./why-us.html">Why us </a>
                                     </li>
-                                    <!--<li class="mb-1">
-                                        <a class="text-[#e2e8ff]/75 hover:text-gray-100 transition duration-150 ease-in-out" href="./faqs.html">FAQs</a>
-                                    </li>
+                                    <li class="mb-1">
+                                      <a class="text-[#e2e8ff]/75 hover:text-gray-100 transition duration-150 ease-in-out" href="./faqs.html">FAQs </a>
+                                  </li>
                                     <li class="mb-1">
                                         <a class="text-[#e2e8ff]/75 hover:text-gray-100 transition duration-150 ease-in-out" href="./testimonials.html">Testimonials </a>
-                                    </li>-->
+                                    </li>
+                                    <li class="mb-1">
+                                        <a class="text-[#e2e8ff]/75 hover:text-gray-100 transition duration-150 ease-in-out" href="./blog.html">Blog</a>
+                                    </li>
 
                                     <li class="mb-1">
-                                        <a class="text-[#e2e8ff]/75 hover:text-gray-100 transition duration-150 ease-in-out" href="https://booking.audiologyplus.com/">Contact Us</a>
+                                        <a class="text-[#e2e8ff]/75 hover:text-gray-100 transition duration-150 ease-in-out" href="/contact-us.html">Contact Us</a>
                                     </li>
                                 </ul>
             </div>
@@ -412,7 +420,7 @@
               </li>
             </ul>
             <!-- Copyrights note -->
-            <div class="text-gray-400 text-sm mr-4">Copyright © 2024 AudiologyPlus. All rights reserved.</div>
+            <div class="text-gray-400 text-sm mr-4">Copyright © 2025 AudiologyPlus. All rights reserved.</div>
           </div>
         </div>
       </div>
@@ -461,12 +469,12 @@
           autorotateTiming: 3000,
           items: [
               {
-                img: '/new/main_dashboard.jpg',
+                img: '/new/paidm_dahboard.jpg',
               
             },
-            {
-              img: '/new/main_dashboard.jpg',
-            }
+            // {
+            //   img: '/new/main_dashboard.jpg',
+            // }
           ],
           init() {
               if (this.autorotate) {
